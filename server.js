@@ -26,7 +26,7 @@ const cloudDB = process.env.DATABASE_CLOUD.replace(
 
 mongoose
   .connect(cloudDB)
-  .then(() => console.log('Cloud DB connection successful'));
+  .then(() => console.log('Cloud DB connection successful...'));
 
 const port = process.env.PORT || 8000;
 
